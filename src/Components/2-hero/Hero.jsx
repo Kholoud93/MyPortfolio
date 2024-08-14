@@ -12,7 +12,7 @@ export default function Hero() {
      initial={{scale: 0}}
      animate = {{scale : 1}}
      transition ={{duration : 2}}
-     src="../../MyPic.png" className="avatar" alt="" />
+     src="../../../public/pic/MyPic.png" className="avatar" alt="" />
     <span className="icon-verified"></span>
   </div>
   <h1 

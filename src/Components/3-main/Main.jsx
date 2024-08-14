@@ -12,11 +12,11 @@ export default function Main() {
   
   }
   const myProjects=[
-    {projectTitle:"E-commerce",category:"react", imgPath:"/public/zz.jpg"},
-    {projectTitle:"Portfolio",category:"css", imgPath:"/public/6.jpg"},
-    {projectTitle:"Todo App",category:"javascript", imgPath:"/public/todo.png"},
-    {projectTitle:"Quotes",category:"javascript", imgPath:"/public/quotes.jpeg"},
-    {projectTitle:"Weather App",category:"javascript", imgPath:"/public/weather app.jpeg"},
+    {projectTitle:"E-commerce",category:"react", imgPath:"/public/pic/zz.jpg"},
+    {projectTitle:"Portfolio",category:"css", imgPath:"/public/pic/6.jpg"},
+    {projectTitle:"Todo App",category:"javascript", imgPath:"/public/pic/todo.png"},
+    {projectTitle:"Quotes",category:"javascript", imgPath:"/public/pic/quotes.png"},
+    {projectTitle:"Weather App",category:"javascript", imgPath:"/public/pic/weather app.jpeg"},
   ]
  const[currentActive,setCurrentActive]= useState("all")
  const[arr, setArr]= useState(myProjects)
