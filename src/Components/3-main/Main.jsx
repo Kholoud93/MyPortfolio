@@ -15,7 +15,7 @@ export default function Main() {
     {projectTitle:"E-commerce",category:"react", imgPath:"/public/pic/zz.jpg"},
     {projectTitle:"Portfolio",category:"css", imgPath:"/public/pic/6.jpg"},
     {projectTitle:"Todo App",category:"javascript", imgPath:"/public/pic/todo.png"},
-    {projectTitle:"Quotes",category:"javascript", imgPath:"/public/pic/quotes.png"},
+    {projectTitle:"Quotes",category:"javascript", imgPath:"/public/pic/quotes.jpeg"},
     {projectTitle:"Weather App",category:"javascript", imgPath:"/public/pic/weather app.jpeg"},
   ]
  const[currentActive,setCurrentActive]= useState("all")
