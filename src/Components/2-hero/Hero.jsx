@@ -3,6 +3,7 @@ import "./hero.css";
 import Lottie from "lottie-react";
 import developerAnimation from "../../../public/animation/developer.json";
 import { motion } from "framer-motion";
+import myPic from "../../../public/pic/MyPic.png"
 export default function Hero() {
   return (
     <section className="hero flex">
@@ -12,7 +13,7 @@ export default function Hero() {
      initial={{scale: 0}}
      animate = {{scale : 1}}
      transition ={{duration : 2}}
-     src="../../../public/pic/MyPic.png" className="avatar" alt="" />
+     src= {myPic} className="avatar" alt="" />
     <span className="icon-verified"></span>
   </div>
   <h1 
