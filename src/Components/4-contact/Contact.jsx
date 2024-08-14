@@ -20,7 +20,7 @@ export default function Contact() {
 
 <div className="flex" style={{justifyContent : "space-between"}}>
 <form onSubmit={handleSubmit}>
-<div  className="flex">
+<div  className="flex" >
 <label htmlFor="email" aria-autocomplete="off" className="subtitle">Email Address:</label>
 <input required type="email" id="email" name="email" />
 
