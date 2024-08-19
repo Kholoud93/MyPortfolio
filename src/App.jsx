@@ -7,7 +7,7 @@ import Footer from './Components/5-footer/Footer';
 
 
 
-function App() {
+ function App() {
 const[scrollbutn , setScrollButn] =useState(false)
 
 
