@@ -1,6 +1,7 @@
 import  { useEffect, useState } from 'react'
 import "./header.css";
 
+
 export default function Header() {
  const[showModal , setshowModal]= useState(false)
  const[theme , setTheme]= useState(localStorage.getItem("currentMode")??"dark")
@@ -20,15 +21,16 @@ export default function Header() {
     <header className='flex'>
       <button onClick={()=>setshowModal(true)} className='menu icon-menu flex'></button>
       <div></div>
-      <nav>
-       <ul className='flex'>
-        <li><a href="">About</a></li>
-        <li><a href="">Articles</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Speaking</a></li>
-        <li><a href="">contact</a></li>
-       </ul>
-      </nav>
+     
+    <nav>
+      <ul className='flex'>
+        <li><a href="#hero">About</a></li>
+        <li><a href="#main">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+ 
       <button  onClick={()=>{
         localStorage.setItem("currentMode", theme === "dark" ? "light" : "dark")
         setTheme(localStorage.getItem("currentMode"))
@@ -39,11 +41,14 @@ export default function Header() {
       {showModal && (<div className=" fixed">
         <ul className='modal'>
           <li><button className='icon-cancel' onClick={()=>setshowModal(false)}/></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Articles</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Speaking</a></li>
-          <li><a href="">Uses</a></li>
+          <nav>
+      <ul className='flex'>
+        <li><a href="#hero">About</a></li>
+        <li><a href="#main">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+        
         </ul>
       </div>)}
     </header>

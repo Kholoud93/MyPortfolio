@@ -1,9 +1,9 @@
 
 import "./hero.css";
 import Lottie from "lottie-react";
-import developerAnimation from "../../../public/animation/developer.json";
+import developerAnimation from "../../animation/developer.json";
 import { motion } from "framer-motion";
-import myPic from "../../../public/pic/MyPic.png"
+import myPic from "/pic/MyPic.png"
 export default function Hero() {
   return (
     <section className="hero flex">

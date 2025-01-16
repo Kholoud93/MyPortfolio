@@ -3,6 +3,9 @@ main.flex{
     gap: 2.64rem;
     align-items: start;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 
 /* left section */
@@ -144,4 +147,5 @@ main section.right-section{
         width: 7rem;
         padding: 0.8rem 0;
         font-size: 0.9rem;
+}
 }

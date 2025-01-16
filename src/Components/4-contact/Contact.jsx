@@ -2,8 +2,8 @@
 import { useForm, ValidationError } from "@formspree/react";
 import "./contact.css";
 import Lottie from "lottie-react";
-import doneAnimation from "../../../public/animation/done.json"
-import contactUsAnimation from "../../../public/animation/contact us.json"
+import doneAnimation from "../../animation/done.json"
+import contactUsAnimation from "../../animation/contact us.json"
 export default function Contact() {
   const [state, handleSubmit] = useForm("mvgprnzd");
 
